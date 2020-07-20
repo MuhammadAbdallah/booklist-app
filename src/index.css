@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #553055;
+}
+
+.app {
+  background: #4c2a4c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d;
+}
+.navbar h2 {
+  margin: 10px 0px;
+}
+.book-list ul {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.book-list ul li {
+  list-style: none;
+  padding: 15px;
+  margin: 20px;
+
+  /* text-align: center; */
+  background-color: #6d3d6d;
+  color: #fff;
+}
+.book-list ul li:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.empty-list {
+  text-align: center;
+  padding: 15px;
+}
+form {
+  padding: 10px;
+  background-color: #6d3d6d;
+}
+form input {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  width: 93.5%;
+  background-color: #530e52;
+  color: #fff;
+}
+#submit-btn {
+  background-color: #4b0451;
+  color: #eee;
+  cursor: pointer;
+  width: auto;
+  margin: auto;
+  font-weight: bold;
+}
